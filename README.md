@@ -34,3 +34,5 @@ Przykładowe uruchomienie
 ```
 
 Aby zakończyć program należy nacisnąć `CTRL + C`
+
+![image](https://github.com/user-attachments/assets/ad7e7d4b-b71c-4d6e-b155-f7f55c8637d8)
