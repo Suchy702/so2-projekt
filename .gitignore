@@ -1,0 +1,32 @@
+# Ignore object files and binaries
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore build directories
+/build/
+/bin/
+/lib/
+/dist/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Ignore generated files
+*.d
+*.dep
+*.pch
+*.pdb
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.code-workspace
