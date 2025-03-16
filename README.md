@@ -1,5 +1,5 @@
 # Problem ucztujących filozofów
-Celem projektu było przedstawienie problemu ucztujących filozofów, jako ćwiczenie z synchronizacji procesów (jeden proces - jeden filozof). Aby uniknąć zakleszczenia zastosowano metodę asymetrycznego podnoszenia widelców.
+Celem projektu było przedstawienie problemu ucztujących filozofów, jako ćwiczenie z synchronizacji wątków (jeden proces - jeden filozof). Aby uniknąć zakleszczenia zastosowano metodę asymetrycznego podnoszenia widelców.
 
 ## Narzędzia
 Progam został wykonany w języku C++ z użyciem biblioteki threads oraz ncurses (do czytelnego wyświetlania informacji w terminalu).
