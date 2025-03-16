@@ -9,5 +9,5 @@ public:
     ~Display();
     void updateStatus(int philosopherId, const std::string &status);
 private:
-    std::mutex mtx;
+    std::mutex mutex;
 };

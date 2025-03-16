@@ -23,7 +23,7 @@ Display::~Display() {
 void Display::updateStatus(int philosopherId, const std::string &status) {
     // Lock the mutex to prevent multiple threads from writing to the screen at the same time
     // and unlocking it when the function ends
-    std::lock_guard<std::mutex> lock(mtx);
+    std::lock_guard<std::mutex> lock(mutex);
 
     // Determine which color pair to use based on the status
     int colorPair = 0;
