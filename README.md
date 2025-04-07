@@ -73,13 +73,6 @@ Po uruchomieniu klienta, należy podać swoją nazwę użytkownika. Po zatwierdz
 4. Zacznij wpisywać wiadomości i wysyłać je naciskając Enter
 5. Aby wyjść z czatu, wpisz `/exit`
 
-## Implementacja synchronizacji
-
-Aplikacja implementuje własną synchronizację za pomocą blokad (locks) z biblioteki threading:
-
-- `clients_lock` - synchronizuje dostęp do listy klientów
-- `lock` w `MessageQueue` - synchronizuje dostęp do kolejki wiadomości
-
 ![alt text](image.png)
 
 ![alt text](image-1.png)
