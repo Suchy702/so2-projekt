@@ -30,3 +30,21 @@
 .vscode/
 .idea/
 *.code-workspace
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment directories
+venv/
+.env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
